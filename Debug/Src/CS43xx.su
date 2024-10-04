@@ -1,0 +1,9 @@
+../Src/CS43xx.c:3:13:CS43_WriteRegister	16	static
+../Src/CS43xx.c:12:16:CS43_ReadRegister	24	static
+../Src/CS43xx.c:25:13:CS43_RST_Init	4	static
+../Src/CS43xx.c:34:13:CS43_RST_HIGH	4	static
+../Src/CS43xx.c:39:6:CS43_Init	16	static
+../Src/CS43xx.c:85:6:CS43_Start	16	static
+../Src/CS43xx.c:110:6:CS43_Stop	8	static
+../Src/CS43xx.c:115:6:CS43_SetSide	24	static
+../Src/CS43xx.c:141:6:CS43_SetVolume	24	static

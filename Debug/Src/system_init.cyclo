@@ -1,0 +1,2 @@
+../Src/system_init.c:5:6:PLLI2SClock_Config	2
+../Src/system_init.c:19:6:SystemInit	1

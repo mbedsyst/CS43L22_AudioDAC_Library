@@ -1,0 +1,9 @@
+../Src/CS43xx.c:3:13:CS43_WriteRegister	1
+../Src/CS43xx.c:12:16:CS43_ReadRegister	1
+../Src/CS43xx.c:25:13:CS43_RST_Init	1
+../Src/CS43xx.c:34:13:CS43_RST_HIGH	1
+../Src/CS43xx.c:39:6:CS43_Init	1
+../Src/CS43xx.c:85:6:CS43_Start	1
+../Src/CS43xx.c:110:6:CS43_Stop	1
+../Src/CS43xx.c:115:6:CS43_SetSide	5
+../Src/CS43xx.c:141:6:CS43_SetVolume	2
