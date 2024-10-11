@@ -8,16 +8,16 @@
 #define CS43_CHIP_ADDRESS		(0x94>>1) // 7-bit Device Address : 1001010
 
 // CS43L22 Register Address Definitions
-#define POWER_CTL1				0x02
-#define POWER_CTL2				0x04
+#define POWER_CTL1              0x02
+#define POWER_CTL2              0x04
 #define CLOCKING_CTL 	  		0x05
 #define INTERFACE_CTL1			0x06
 #define INTERFACE_CTL2			0x07
 #define PASSTHROUGH_A_SELECT	0x08
 #define PASSTHROUGH_B_SELECT	0x09
-#define PLAYBACK_CTL1			0x0D // Not sure if needed
+#define PLAYBACK_CTL1			0x0D
 #define MISC_CTL				0x0E
-#define PLAYBACK_CTL2			0x0F // Surely Needed
+#define PLAYBACK_CTL2			0x0F
 #define PASSTHROUGH_VOL_A		0x14
 #define PASSTHROUGH_VOL_B		0x15
 #define PCM_A_VOL				0x1A

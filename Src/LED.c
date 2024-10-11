@@ -1,8 +1,8 @@
 #include "LED.h"
 
 /*	LED Mapping
- * 		LD3	- PD13
- * 		LD4	- PD12
+ * 		LD3 - PD13
+ * 		LD4 - PD12
  * 		LD5 - PD14
  * 		LD6 - PD15
  */
@@ -36,3 +36,14 @@ void LED_OFF(uint8_t led)
 	}
 }
 
+void LED_TOGGLE(uint8_t led)
+{
+	switch(led)
+	{
+		case 3: GPIOD->ODR ^= (1<<13); break;
+		case 4: GPIOD->ODR ^= (1<<12); break;
+		case 5: GPIOD->ODR ^= (1<<14); break;
+		case 6: GPIOD->ODR ^= (1<<15); break;
+		default: break;
+	}
+}

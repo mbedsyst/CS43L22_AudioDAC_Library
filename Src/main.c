@@ -7,7 +7,7 @@
 
 #define F_SAMPLE	96000.0f
 #define F_OUT		2000.0f
-#define PI 			3.14159f
+#define PI 		3.14159f
 
 float mySinVal;
 float sample_dt;

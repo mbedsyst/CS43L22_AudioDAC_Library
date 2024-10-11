@@ -5,7 +5,6 @@
 #include <stdbool.h>
 #include "SYSTICK.h"
 
-
 void I2C1_Init(void);
 void I2C1_Start(void);
 void I2C1_SendAddress(uint8_t address, bool mode);
